@@ -97,8 +97,7 @@ width: 50%;
 .checkbox {
 margin: 20px 0;
 }
-
-.enviar{
+.enviar {
   width: 40%;
   padding: 15px 0;
   background: orange;
@@ -110,4 +109,15 @@ margin: 20px 0;
   transitions: 1s all;
   cursor: pointer;
 }
-  
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
+}
+table {
+  margin: 20px 0 40px;
+}
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
